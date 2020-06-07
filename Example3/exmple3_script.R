@@ -1,5 +1,4 @@
-library(dplyr)
-library(magrittr)
+# Example 3
 
 # Pipe each data manipulation operation to the next one
 df <- starwars %>% 
@@ -7,4 +6,3 @@ df <- starwars %>%
   filter(height >= 175) %>% 
   filter(species == "Human") %>% 
   arrange(desc(mass))
-

@@ -1,5 +1,4 @@
-library(dplyr)
-library(magrittr)
+# Example 4
 
 # Pipe each data manipulation operation to the next one
 df <- starwars %>% 
@@ -10,4 +9,3 @@ df <- starwars %>%
   arrange(desc(BMI)) %>% 
   group_by(gender) %>% 
   summarise(median_BMI = median(BMI))
-

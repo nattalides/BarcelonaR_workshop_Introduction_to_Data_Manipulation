@@ -1,6 +1,4 @@
-library(dplyr)
-
-data(package = "dplyr")
+library(tidyverse)
 
 View(starwars)
 

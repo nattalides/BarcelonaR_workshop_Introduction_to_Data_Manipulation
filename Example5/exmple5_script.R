@@ -1,5 +1,3 @@
-library(stringr)
-
 # Make all character names as lower case
 string <- str_to_lower(starwars$name)
 
