@@ -2,8 +2,7 @@
 
 Setup for code:
 
-* R (version 3.6.3)
-* RStudio (version 1.2.5033)
-
+* R (version 4.0.1)
+* RStudio (version 1.3.959)
 
 Source: https://www.barcelonar.org/
